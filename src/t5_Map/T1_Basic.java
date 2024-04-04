@@ -10,9 +10,9 @@ import java.util.Map;
 */
 public class T1_Basic {
 	public static void main(String[] args) {
-		//HashMap<Integer, String> map = new HashMap<Integer, String>();
-		//Map<Integer, String> map = new HashMap<Integer, String>();
-		Map<Integer, String> map = new HashMap<>();
+		//HashMap<Integer, String> map = new HashMap<Integer, String>(); --> 정석 표기
+		//Map<Integer, String> map = new HashMap<Integer, String>(); --> 맵 계열이므로 업캐스팅 가능
+		Map<Integer, String> map = new HashMap<>(); // --> <>각괄호 안의 내용 생략 가능 
 		
 		System.out.println("1.크기 : "+map.size());
 		System.out.println("1.toString : "+map);
